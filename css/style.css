@@ -61,7 +61,7 @@ body {
   .hero {
   background: url('https://raw.githubusercontent.com/Mogotoko1/Kgbuffalo/main/img/background.jpg') no-repeat center center;
   background-size: cover;
-  color: var(--white);
+  color: var(--black);
   height: 100vh;
   position: relative;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
