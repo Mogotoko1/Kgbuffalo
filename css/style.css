@@ -64,23 +64,23 @@ body {
   height: 100vh;
   position: relative;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-  /* no default color here */
 }
 
-/* Headings in hero should be black */
 .hero h1,
 .hero h2,
 .hero h3,
 .hero h4,
 .hero h5,
 .hero h6 {
-  color: var(--black) !important;
+  color: var(--black) !important; /* Ensures headings are black */
 }
 
-/* Other text and buttons in hero stay white */
+/* Ensure all other text stays white */
 .hero p,
 .hero .btn-gold {
-  color: var(--white) !important;
+  color: var(--white) !important; 
+}
+
 }
 
 }
