@@ -3,7 +3,7 @@
   --dark-brown: #4b2e2e;
   --white: #ffffff;
   --black: #000000;
-  --dark-white: #f1f1f1; /* Define this color for text-gold */
+  --dark-white: #f1f1f1;
 }
 
 body {
@@ -66,30 +66,23 @@ body {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
+/* Make hero headings black */
 .hero h1,
 .hero h2,
 .hero h3,
 .hero h4,
 .hero h5,
 .hero h6 {
-  color: var(--black) !important; /* Ensures headings are black */
+  color: var(--black) !important;
 }
 
-/* Ensure all other text stays white */
-.hero p,
-.hero .btn-gold {
-  color: var(--white) !important; 
-}
-
-}
-
-}
-
-}
-
+/* Keep hero paragraph and buttons white */
+.hero p {
+  color: var(--white) !important;
 }
 
 .hero .btn-gold {
+  color: var(--white) !important;
   padding: 0.75rem 1.5rem;
 }
 
@@ -130,3 +123,4 @@ body {
   color: var(--white);
   padding: 30px 0;
 }
+
