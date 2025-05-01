@@ -5,12 +5,12 @@
   --white: #ffffff;
   --black: #000000;
   --dark-white: #f1f1f1;
+.white-bold {
+  color: white;
+  font-weight: bold;
 }
 
-.text-center h2 {
-  color: var(--white);    /* Or simply: color: white; */
-  font-weight: bold;      /* Makes it bold */
-}
+
 
 
 body {
