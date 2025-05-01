@@ -68,17 +68,23 @@ body {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
-/* Headings in hero should be black or dark blue */
+/* Force all headings inside the .hero section to be black or dark blue */
 .hero h1,
 .hero h2,
 .hero h3,
 .hero h4,
 .hero h5,
-.hero h6 {
+.hero h6,
+.hero .container h1,
+.hero .container h2,
+.hero .container h3,
+.hero .container h4,
+.hero .container h5,
+.hero .container h6 {
   color: var(--dark-blue) !important;
 }
 
-/* Paragraph text like “Protect. Secure. Extend Your Vehicle's Life” should be white */
+/* Force hero paragraph to be white */
 .hero p {
   color: var(--white) !important;
 }
