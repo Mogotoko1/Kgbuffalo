@@ -1,9 +1,9 @@
-
 :root {
   --primary-blue: #0d6efd;
   --dark-brown: #4b2e2e;
   --white: #ffffff;
   --black: #000000;
+  --dark-white: #f1f1f1; /* Define this color for text-gold */
 }
 
 body {
@@ -59,21 +59,12 @@ body {
 }
 
 .hero {
-
-	background: url('../img/background.jpg') no-repeat center center;
-
+  background: url('img/background.jpg') no-repeat center center;
   background-size: cover;
   color: var(--white);
   height: 100vh;
   position: relative;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
-}
-
-}
-
-  
-}
-
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 .hero .btn-gold {
@@ -93,23 +84,23 @@ body {
   bottom: 15px;
   left: 20px;
   color: var(--white);
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   padding: 5px 10px;
 }
 
 .map-responsive {
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 
 .map-responsive iframe {
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .footer {
@@ -117,4 +108,5 @@ body {
   color: var(--white);
   padding: 30px 0;
 }
+
 
