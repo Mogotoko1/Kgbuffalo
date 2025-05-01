@@ -59,12 +59,14 @@ body {
 }
 
 .hero {
-  background: url('img/background.jpg') no-repeat center center;
+  background: url('https://github.com/Mogotoko1/Kgbuffalo/raw/main/img/background.jpg') no-repeat center center;
   background-size: cover;
   color: var(--white);
   height: 100vh;
   position: relative;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
 }
 
 .hero .btn-gold {
