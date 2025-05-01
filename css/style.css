@@ -58,13 +58,31 @@ body {
   margin-bottom: 1rem;
 }
 
-  .hero {
+.hero {
   background: url('https://raw.githubusercontent.com/Mogotoko1/Kgbuffalo/main/img/background.jpg') no-repeat center center;
   background-size: cover;
-  color: var(--black);
   height: 100vh;
   position: relative;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  /* no default color here */
+}
+
+/* Headings in hero should be black */
+.hero h1,
+.hero h2,
+.hero h3,
+.hero h4,
+.hero h5,
+.hero h6 {
+  color: var(--black) !important;
+}
+
+/* Other text and buttons in hero stay white */
+.hero p,
+.hero .btn-gold {
+  color: var(--white) !important;
+}
+
 }
 
 }
