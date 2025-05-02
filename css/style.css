@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
   color: red !important;
   font-weight: 900;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black !important;
-  border: 2px solid blue; /* Adds black border around the text */
+  border: 2px solid black; /* Adds black border around the text */
   padding: 10px; /* Optional: Adds padding inside the border */
 }
 
