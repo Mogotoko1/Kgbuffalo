@@ -120,37 +120,33 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
 .protect-container {
   text-align: center;
   margin-top: 20px;
-  animation: fadeZoomIn 1s ease-in-out both;
 }
 
 .protect-title {
-  background-color: transparent;
-  color: var(--dark-brown);
-  font-size: 1.75rem;
+  background-color: transparent !important; /* No background */
+  color: var(--white) !important;           /* White text */
+  font-size: 1.8rem;                         /* Adjusted to a clean smaller size */
   font-weight: 600;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.5rem;
   display: inline-block;
-  margin-bottom: 15px;
-  animation: fadeZoomIn 1.2s ease-in-out both;
+  margin-bottom: 10px;
 }
 
 .quote-button {
   display: inline-block;
+  margin-top: 15px;
   background-color: #0d6efd;
   color: white;
   padding: 0.75rem 2rem;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: 6px;
   text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  animation: fadeZoomIn 1.5s ease-in-out both;
+  transition: background-color 0.3s ease;
 }
 
-/* Button hover effect */
 .quote-button:hover {
   background-color: #0b5ed7;
-  transform: scale(1.05); /* Slight zoom on hover */
 }
 
 
