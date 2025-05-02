@@ -137,6 +137,23 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
   margin-bottom: 10px;
 }
 
+.protect-title {
+  background-color: transparent !important;
+  color: red !important;
+  font-size: 4rem;
+  font-weight: 900;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black,
+     2px  2px 8px blue; /* Blue glow/shadow behind the text */
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+
 
 .quote-button {
   display: inline-block;
