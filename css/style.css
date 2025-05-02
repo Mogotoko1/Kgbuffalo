@@ -6,7 +6,7 @@
   --black: #000000;
   --dark-white: #f1f1f1;
 .white-bold {
-  color: white;
+  color: black;
   font-weight: bold;
 }
 
