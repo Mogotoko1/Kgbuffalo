@@ -1,12 +1,13 @@
 :root {
   --primary-blue: #0d6efd;
-  --dark-blue: #002147; /* Darker alternative to black */
+  --dark-blue: #002147;
   --dark-brown: #4b2e2e;
   --white: #ffffff;
   --black: #000000;
   --dark-white: #f1f1f1;
-  
-  .white-bold {
+}
+
+.white-bold {
   color: white;
   font-weight: bold;
 }
@@ -16,15 +17,18 @@ body {
   color: var(--black);
   background-color: var(--white);
   margin-top: 56px;
+  box-shadow: none !important;
 }
 
 .navbar {
   background: var(--black);
+  box-shadow: none !important;
 }
 
 .navbar-nav .nav-link {
   color: var(--white);
   margin-right: 15px;
+  text-shadow: none !important;
 }
 
 .navbar-nav .nav-link:hover {
@@ -33,12 +37,14 @@ body {
 
 .text-gold {
   color: var(--dark-white) !important;
+  text-shadow: none !important;
 }
 
 .btn-gold {
   background: var(--primary-blue);
   color: var(--white);
   border-radius: 0;
+  box-shadow: none !important;
 }
 
 .btn-gold:hover {
@@ -55,18 +61,20 @@ body {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: var(--dark-brown);
+  text-shadow: none !important;
 }
 
 .service-icon {
   font-size: 3rem;
   color: var(--primary-blue);
   margin-bottom: 1rem;
+  text-shadow: none !important;
 }
 
 /* HERO SECTION STYLES */
 .hero {
   background: url('https://raw.githubusercontent.com/Mogotoko1/Kgbuffalo/main/img/background.jpg') no-repeat center center;
- background-size: cover;
+  background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
@@ -74,9 +82,9 @@ body {
   justify-content: center;
   text-align: center;
   padding: 0 20px;
+  box-shadow: none !important;
 }
 
-/* Remove blue shadows from all elements */
 .navbar,
 .btn,
 .form-control,
@@ -94,20 +102,17 @@ button:focus,
   outline: none !important;
 }
 
-/* Remove focus rings/outlines when elements are clicked */
 *:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 
-/* Specifically remove Bootstrap's default focus states */
 .form-control:focus {
   border-color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* Remove any text shadows */
 h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
   text-shadow: none !important;
 }
@@ -120,11 +125,12 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
 .protect-title {
   background-color: #0d6efd;
   color: white;
-  font-size: 4rem;           /* Very big */
-  font-weight: 900;          /* Very bold */
+  font-size: 4rem;
+  font-weight: 900;
   padding: 1rem 2rem;
   border-radius: 10px;
   display: inline-block;
+  text-shadow: none !important;
 }
 
 .quote-button {
@@ -132,25 +138,23 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
   margin-top: 20px;
   background-color: #0d6efd;
   color: white;
-  padding: 1rem 2.5rem;       /* Larger padding for bigger size */
-  font-size: 1.5rem;          /* Bigger font */
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
   border-radius: 8px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  box-shadow: none !important;
 }
 
 .quote-button:hover {
   background-color: #0b5ed7;
 }
 
-
-
-
-/* Button in hero should also be white text */
 .hero .btn-gold {
   color: var(--white) !important;
   padding: 0.75rem 1.5rem;
+  box-shadow: none !important;
 }
 
 .gallery img {
@@ -159,6 +163,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
   display: block;
   border: 2px solid var(--dark-brown);
   border-radius: 5px;
+  box-shadow: none !important;
 }
 
 .overlay-text {
@@ -168,6 +173,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
   color: var(--white);
   background: rgba(0, 0, 0, 0.6);
   padding: 5px 10px;
+  text-shadow: none !important;
 }
 
 .map-responsive {
@@ -183,10 +189,13 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
   height: 100%;
   width: 100%;
   position: absolute;
+  box-shadow: none !important;
 }
 
 .footer {
   background: var(--dark-brown);
   color: var(--white);
   padding: 30px 0;
+  box-shadow: none !important;
 }
+
