@@ -5,13 +5,11 @@
   --white: #ffffff;
   --black: #000000;
   --dark-white: #f1f1f1;
-.white-bold {
-  color: black;
+  
+  .white-bold {
+  color: white;
   font-weight: bold;
 }
-
-
-
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -91,9 +89,14 @@ body {
 }
 
 /* Force hero paragraph to be white */
-.hero p {
+hero h1 {
   color: var(--white) !important;
 }
+
+  .hero .protect-title {
+  color: var(--white) !important;
+}
+
 
 /* Button in hero should also be white text */
 .hero .btn-gold {
