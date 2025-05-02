@@ -1,204 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KG Buffalo www.kgbuffalo.co.za</title>
-
   <!-- Bootstrap & FontAwesome CDN -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-
-  <!-- Owl Carousel CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
-
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
   <!-- Custom CSS -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <a class="navbar-brand" href="#">
-      <img src="img/logo.png" alt="KG Buffalo Logo" style="height: 60px; margin-right: 10px;" />
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#solutions">Protect & Secure</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">
+  <img src="img/logo.png" alt="KG Buffalo Logo" style="height: 60px; margin-right: 10px;"> 
+</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#solutions">Protect & Secure</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+      <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero d-flex align-items-center">
+  <div class="container text-center">
+    <h1 class="text-gold">Protect. Secure. Extend Your Vehicle's Life.</h1>
+    <a href="#contact" class="btn btn-gold btn-lg mt-4">Request a Quote</a>
+  </div>
+</section>
+
+<!-- Protect & Secure Section -->
+<section id="solutions" class="section bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="text-gold">Protect & Secure Your Car</h2>
+      <p> Protect and secure your car with trusted solutions that go beyond the basics. From providing professionally cut car spare keys to applying high-quality car rubberizing for underbody protection, we help keep your vehicle both secure and road-ready. Whether you're guarding against theft, corrosion, or daily wear and tear, our comprehensive services ensure your car stays safe, functional, and looking like new. Drive with confidence—because your vehicle deserves long-lasting care and protection..</p>
     </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="hero" class="hero d-flex align-items-center">
-    <div class="container text-center">
-      <h2 style="color: #ff0000; font-weight: bold; font-size: 3rem; background-color: #e0f7ff; padding: 10px;">
-  Protect & Secure your Ride
-</h2>
-
-      <a href="#contact" class="btn btn-gold btn-lg mt-4">Request a Quote</a>
-    </div>
-  </section>
-
-  <!-- Protect & Secure Section -->
-  <section id="solutions" class="section bg-light">
-    <div class="container">
-      <div class="section-title">
-        <h2 class="text-black">Protect & Secure</h2>
-        <p>
-          Protect and secure your car with trusted solutions that go beyond the basics. From providing professionally cut car spare keys to applying high-quality car rubberizing for underbody protection, we help keep your vehicle both secure and road-ready.
-        </p>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <img src="img/Products/1.jpg" alt="Key Replacement" class="img-fluid">
+        <div class="overlay-text">Key Replacement Experts</div>
       </div>
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <img src="img/Products/1.jpg" alt="Key Replacement" class="img-fluid" />
-          <div class="overlay-text">Key Replacement Experts</div>
-        </div>
-        <div class="col-md-6 mb-4">
-          <img src="img/Products/2.jpg" alt="Car Rubberizing" class="img-fluid" />
-          <div class="overlay-text">Protect Your Car with Rubberized Coatings</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Us Section -->
-  <section id="about" class="section">
-    <div class="container">
-      <div class="section-title">
-        <h2 class="text-black">About Us</h2>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <p>
-            Founded in 2024 by Dorcus Maremele, KG Buffalo is a proudly South African automotive service provider specializing in high-quality car care solutions. The company offers spare key services and rubberizing for vehicle protection.
-          </p>
-          <p>
-            Our core services include key cutting & programming (traditional and smart keys) and rubberizing for underbody and load bin protection against rust and wear. We’re your trusted vehicle protection partner.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <img src="img/About/1.jpg" alt="About KG Buffalo" class="img-fluid rounded" />
-        </div>
+      <div class="col-md-6 mb-4">
+        <img src="img/Products/2.jpg" alt="Car Rubberizing" class="img-fluid">
+        <div class="overlay-text">Protect Your Car with Rubberized Coatings</div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Services Section -->
-  <section id="services" class="section bg-light">
-    <div class="container">
-      <div class="section-title">
-        <h2 class="text-black">Our Services</h2>
+<!-- About Us Section -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="text-gold">About Us</h2>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p>Founded in 2024 by Dorcus Maremele, KG Buffalo is a proudly South African automotive service provider specializing in high-quality car care solutions. The company was created to meet the growing need for reliable spare key services and vehicle protection technologies. As a locally owned business, we are committed to offering convenient, efficient, and affordable solutions to drivers across Limpopo and beyond.</p>
+<p>Our core services include car spare key cutting and programming—covering traditional keys, transponders, and smart keys. Whether you've lost your key or simply need a spare, KG Buffalo ensures quick turnaround times and professional precision with every service. In addition to our key services, we also offer car rubberizing solutions, which protect both the underbody of your vehicle and the back of your bakkie (load bin) from rust, corrosion, and harsh road conditions. </p>
+<p>At KG Buffalo, we pride ourselves on being more than just a service provider—we’re your trusted vehicle protection partner.</p>
       </div>
-      <div class="row text-center">
-        <div class="col-md-3 mb-4">
-          <i class="fas fa-key service-icon"></i>
-          <h5>Key Cutting & Programming</h5>
-          <p>Precision cutting and programming for Traditional and Smart Keys.</p>
-        </div>
-        <div class="col-md-3 mb-4">
-          <i class="fas fa-car service-icon"></i>
-          <h5>Rubberizing</h5>
-          <p>Protect critical undercarriage, wheel arches, and load bin areas.</p>
-        </div>
-        <div class="col-md-3 mb-4">
-          <i class="fas fa-tools service-icon"></i>
-          <h5>Mobile Service Units</h5>
-          <p>On-site car key replacement and rubberizing at your location.</p>
-        </div>
-        <div class="col-md-3 mb-4">
-          <i class="fas fa-magic service-icon"></i>
-          <h5>Key Shell Replacement</h5>
-          <p>Restore key functionality and appearance.</p>
-        </div>
-        <div class="col-md-3 mb-4">
-          <i class="fas fa-fire service-icon"></i>
-          <h5>Engine Bay Coating</h5>
-          <p>Protect engine compartments against oil, grime, and heat.</p>
-        </div>
-        <div class="col-md-3 mb-4">
-          <i class="fas fa-volume-mute service-icon"></i>
-          <h5>Sound Deadening</h5>
-          <p>Reduce road noise with rubberized undercoating.</p>
-        </div>
+      <div class="col-md-6">
+        <img src="img/About/1.jpg" alt="About KG Buffalo" class="img-fluid rounded">
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Gallery Section -->
-  <section id="gallery" class="section">
-    <div class="container">
-      <div class="section-title">
-        <h2 class="text-black">Gallery</h2>
-      </div>
-      <div class="owl-carousel owl-theme">
-        <div class="item"><img src="img/Gallery/1.jpg" alt="Gallery Image 1" class="img-fluid" /></div>
-        <div class="item"><img src="img/Gallery/2.jpg" alt="Gallery Image 2" class="img-fluid" /></div>
-        <div class="item"><img src="img/Gallery/3.jpg" alt="Gallery Image 3" class="img-fluid" /></div>
-      </div>
+<!-- Services Section -->
+<section id="services" class="section bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="text-gold">Our Services</h2>
     </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section bg-light">
-    <div class="container">
-      <div class="section-title">
-        <h2 class="text-black">Contact Us</h2>
+    <div class="row text-center">
+      
+      <!-- Existing Services -->
+      <div class="col-md-3 mb-4">
+        <i class="fas fa-key service-icon"></i>
+        <h5>Key Cutting & Programming</h5>
+        <p>Precision cutting and programming for Traditional and Smart Keys.</p>
       </div>
-      <form>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <input type="text" class="form-control" placeholder="Your Name" required />
+	  
+      <div class="col-md-3 mb-4">
+        <i class="fas fa-car service-icon"></i>
+        <h5>Rubberizing</h5>
+        <p>Protect critical undercarriage, wheel arches and load bin areas from corrosion and wear.</p>
+      </div>
+	  
+      <div class="col-md-3 mb-4">
+        <i class="fas fa-tools service-icon"></i>
+        <h5>Mobile Service Units</h5>
+        <p>On-site car keys replacement and rubberizing at your location.</p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <i class="fas fa-magic service-icon"></i>
+        <h5>Key Shell Replacement</h5>
+        <p>Restore your key’s appearance and functionality with high-quality key shell replacements.</p>
+      </div>
+	  
+      <div class="col-md-3 mb-4">
+        <i class="fas fa-fire service-icon"></i>
+        <h5>Engine Bay Protection Coating</h5>
+        <p>Specialized rubber spray for engine compartments to guard against oil, grime, and heat.</p>
+      </div>
+	  
+      <div class="col-md-3 mb-4">
+        <i class="fas fa-volume-mute service-icon"></i>
+        <h5>Sound Deadening Treatments</h5>
+        <p>Rubberized undercoating that reduces road noise for a smoother, quieter ride.</p>
+      </div>
+	  
+      <div class="col-md-3 mb-4">
+        <i class="fas fa-eraser service-icon"></i>
+        <h5>Rust Removal & Surface Prep</h5>
+        <p>Professional rust treatment and surface preparation before applying rubberizing for optimal adhesion.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Gallery Section -->
+<section id="gallery" class="wow fadeInUp" style="padding: 60px 0;">
+  <div class="container">
+    <div class="section-header text-start">
+      <h5 class="text-gold" style="font-weight: 600; font-size: 2.5rem; margin-bottom: 30px;">Gallery</h5>
+    </div>
+
+    <div class="owl-carousel gallery-carousel">
+      <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg" alt=""></a>
+      <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg" alt=""></a>
+      <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg" alt=""></a>
+      <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg" alt=""></a>
+      <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg" alt=""></a>
+      <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg" alt=""></a>
+      <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.jpg" alt=""></a>
+      <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.jpg" alt=""></a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="text-gold">Contact Us</h2>
+
+<!-- Compact Contact Info Section -->
+<section id="contact" class="bg-light py-3">
+  <div class="container text-center">
+    <p style="font-size: 0.9rem; font-weight: bold; color: #333;">
+      <i class="fas fa-building me-1" style="color: #003366;"></i> KG Buffalo &nbsp; | &nbsp;
+      <i class="fas fa-phone me-1" style="color: #003366;"></i> Dorcus Maremele 076 680 2121 &nbsp; | &nbsp;
+      <i class="fas fa-envelope me-1" style="color: #003366;"></i> 
+      <a href="mailto:info@kgbuffalo.co.za" style="color: #333; font-weight: bold; text-decoration: none;">info@kgbuffalo.co.za</a> &nbsp; | &nbsp;
+      <i class="fas fa-globe me-1" style="color: #003366;"></i> 
+      <a href="http://www.kgbuffalo.co.za" style="color: #333; font-weight: bold; text-decoration: none;">www.kgbuffalo.co.za</a>
+    </p>
+  </div>
+</section>
+
+
+    </div>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <!-- Google Map Embed -->
+        <div class="map-responsive">
+          <iframe src="https://maps.google.com/maps?q=R37%20Buggersford%20Limpopo%20South%20Africa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <!-- Request a Quote Form -->
+        <form action="https://formsubmit.co/machetenino@gmail.com" method="POST">
+          <div class="form-group">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
           </div>
-          <div class="form-group col-md-6">
-            <input type="email" class="form-control" placeholder="Your Email" required />
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
           </div>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send Message</button>
-      </form>
+          <div class="form-group">
+            <select name="service" class="form-control" required>
+              <option value="">Select Service</option>
+              <option>Key Cutting & Programming</option>
+              <option>Underbody Rubberizing</option>
+              <option>Load Bin & Wheel Arch</option>
+              <option>Mobile Service Unit</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea name="message" class="form-control" rows="4" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">Send Request</button>
+        </form>
+        <a href="https://wa.me/27766802121" class="btn btn-outline-dark btn-block mt-3"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-      <p class="mb-0">© 2025 KG Buffalo. All Rights Reserved.</p>
-    </div>
-  </footer>
+<!-- Footer -->
+<footer class="footer text-center">
+  <div class="container">
+    <p>&copy; 2025 KG Buffalo. All Rights Reserved.</p>
+    <p>Designed by Frans Gafane</p>
+  </div>
+</footer>
 
-  <!-- JavaScript dependencies -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- JS Scripts -->
 
-  <!-- Custom Script -->
-  <script>
-    $(document).ready(function(){
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        responsive:{
-          0:{ items:1 },
-          600:{ items:2 },
-          1000:{ items:3 }
-        }
-      });
-    });
-  </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/gallery.js"></script>
+
 
 </body>
 </html>
-
