@@ -72,6 +72,15 @@ body {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
+.protect-title {
+  background-color: var(--primary-blue); /* or use a specific color like #0d6efd */
+  color: white; /* ensures the text is readable on blue */
+  padding: 0.5rem 1rem; /* optional spacing */
+  display: inline-block; /* keeps the background tight around the text */
+  border-radius: 5px; /* optional: smooth corners */
+}
+
+
 /* Force all headings inside the .hero section to be black or dark blue */
 .hero h1,
 .hero h2,
