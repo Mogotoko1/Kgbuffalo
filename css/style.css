@@ -123,33 +123,32 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
 }
 
 .protect-title {
-  background-color: #0d6efd;
+  background-color: #d2b48c; /* Light brown */
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;         /* Reduced size */
   font-weight: 900;
   padding: 1rem 2rem;
-  border-radius: 6px;
+  border-radius: 10px;
   display: inline-block;
-  text-shadow: none !important;
+  margin-bottom: 20px;
 }
 
 .quote-button {
   display: inline-block;
-  margin-top: 10px;
   background-color: #0d6efd;
   color: white;
   padding: 1rem 2.5rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   border-radius: 8px;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  box-shadow: none !important;
 }
 
 .quote-button:hover {
   background-color: #0b5ed7;
 }
+
 
 .hero .btn-gold {
   color: var(--white) !important;
