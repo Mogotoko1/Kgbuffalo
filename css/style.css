@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
 .protect-title {
   background-color: transparent !important; /* No background */
   color: red !important;                     /* Red text */
-  font-size: 0.8rem !important;              /* Significantly smaller text size */
+  font-size: 2rem !important;              /* Significantly smaller text size */
   font-weight: 900;                          /* Very bold */
   text-shadow: 
     -1px -1px 0 black,  
