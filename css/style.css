@@ -80,6 +80,16 @@ body {
   border-radius: 5px; /* optional: smooth corners */
 }
 
+  <style>
+  .protect-title {
+    background-color: var(--primary-blue); /* or #0d6efd if var fails */
+    color: white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 5px;
+  }
+</style>
+
 
 /* Force all headings inside the .hero section to be black or dark blue */
 .hero h1,
