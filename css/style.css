@@ -83,27 +83,31 @@ body {
 }
 
 .protect-title {
-  font-size: 4rem;
-  font-weight: 900;
+  font-size: 64px;
+  font-weight: bold;
   color: white;
   margin-bottom: 20px;
+  background: none; /* Remove any background */
 }
 
 .quote-button {
-  display: inline-block;
-  font-size: 1.75rem;
+  font-size: 20px;
   font-weight: bold;
-  padding: 15px 30px;
   color: white;
-  background-color: #003d99;
-  border-radius: 8px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: none; /* Remove background */
+  display: inline-block;
+  transition: background 0.3s, color 0.3s;
 }
 
 .quote-button:hover {
-  background-color: #002766;
+  background: white;
+  color: black;
 }
+
 
 
 /* Force all headings inside the .hero section to be black or dark blue */
