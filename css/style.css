@@ -83,22 +83,24 @@ body {
 }
 
 .protect-title {
-  font-size: 64px;
+  font-size: 40px;           /* Reduced size */
   font-weight: bold;
   color: white;
-  margin-bottom: 20px;
-  background: none; /* Remove any background */
+  background: none;          /* Removes background */
+  text-shadow: none;         /* Removes shadow */
+  margin-bottom: 15px;
 }
 
 .quote-button {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: white;
   text-decoration: none;
   padding: 10px 20px;
   border: 2px solid white;
   border-radius: 5px;
-  background: none; /* Remove background */
+  background: none;          /* No background */
+  text-shadow: none;         /* Removes shadow */
   display: inline-block;
   transition: background 0.3s, color 0.3s;
 }
