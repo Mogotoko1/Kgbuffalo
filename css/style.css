@@ -76,65 +76,40 @@ body {
   padding: 0 20px;
 }
 
-.protect-container {
-  background-color: rgba(0, 102, 255, 0.85); /* blue with slight transparency */
-  padding: 40px;
-  border-radius: 12px;
+/* Remove blue shadows from all elements */
+.navbar,
+.btn,
+.form-control,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+.card,
+.img-fluid,
+.btn-gold,
+.btn-outline-dark {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  outline: none !important;
 }
 
-.protect-title {
-  font-size: 40px;           /* Reduced size */
-  font-weight: bold;
-  color: white;
-  background: none;          /* Removes background */
-  text-shadow: none;         /* Removes shadow */
-  margin-bottom: 15px;
+/* Remove focus rings/outlines when elements are clicked */
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-.quote-button {
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: 2px solid white;
-  border-radius: 5px;
-  background: none;          /* No background */
-  text-shadow: none;         /* Removes shadow */
-  display: inline-block;
-  transition: background 0.3s, color 0.3s;
+/* Specifically remove Bootstrap's default focus states */
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
-.quote-button:hover {
-  background: white;
-  color: black;
-}
-
-
-
-/* Force all headings inside the .hero section to be black or dark blue */
-.hero h1,
-.hero h2,
-.hero h3,
-.hero h4,
-.hero h5,
-.hero h6,
-.hero .container h1,
-.hero .container h2,
-.hero .container h3,
-.hero .container h4,
-.hero .container h5,
-.hero .container h6 {
-  color: var(--dark-blue) !important;
-}
-
-/* Force hero paragraph to be white */
-hero h1 {
-  color: var(--white) !important;
-}
-
-  .hero .protect-title {
-  color: var(--white) !important;
+/* Remove any text shadows */
+h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
+  text-shadow: none !important;
 }
 
 .protect-container {
