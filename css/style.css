@@ -124,13 +124,19 @@ h1, h2, h3, h4, h5, h6, p, a, span, .overlay-text {
 
 .protect-title {
   background-color: transparent !important; /* No background */
-  color: var(--white) !important;           /* White text */
-  font-size: 1.8rem;                         /* Adjusted to a clean smaller size */
-  font-weight: 600;
+  color: red !important;                   /* Red text */
+  font-size: 4rem;                          /* Very big text */
+  font-weight: 900;                         /* Very bold */
+  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;                      /* Black bold outline */
   padding: 0.25rem 0.5rem;
   display: inline-block;
   margin-bottom: 10px;
 }
+
 
 .quote-button {
   display: inline-block;
