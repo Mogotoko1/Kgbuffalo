@@ -66,29 +66,44 @@ body {
 /* HERO SECTION STYLES */
 .hero {
   background: url('https://raw.githubusercontent.com/Mogotoko1/Kgbuffalo/main/img/background.jpg') no-repeat center center;
-  background-size: cover;
+ background-size: cover;
+  background-position: center;
   height: 100vh;
-  position: relative;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.protect-container {
+  background-color: rgba(0, 102, 255, 0.85); /* blue with slight transparency */
+  padding: 40px;
+  border-radius: 12px;
 }
 
 .protect-title {
-  background-color: var(--primary-blue); /* or use a specific color like #0d6efd */
-  color: white; /* ensures the text is readable on blue */
-  padding: 0.5rem 1rem; /* optional spacing */
-  display: inline-block; /* keeps the background tight around the text */
-  border-radius: 5px; /* optional: smooth corners */
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 20px;
 }
 
-  <style>
-  .protect-title {
-    background-color: var(--primary-blue); /* or #0d6efd if var fails */
-    color: white;
-    padding: 0.5rem 1rem;
-    display: inline-block;
-    border-radius: 5px;
-  }
-</style>
+.quote-button {
+  display: inline-block;
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  color: white;
+  background-color: #003d99;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.quote-button:hover {
+  background-color: #002766;
+}
 
 
 /* Force all headings inside the .hero section to be black or dark blue */
